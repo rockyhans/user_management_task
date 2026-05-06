@@ -1,7 +1,7 @@
 #  User Management System
 
 <p align="center">
-  <img src="./image.png" alt="Preview Image" width="700"/>
+  <img src="./image.png.png" alt="Preview Image" width="700"/>
 </p>
 
 A full-stack **User Management System** built using the **MERN Stack (MongoDB, Express, React, Node.js)** as part of an assignment for Bits and Volts Pvt. Ltd.
