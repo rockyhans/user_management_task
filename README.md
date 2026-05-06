@@ -1,26 +1,26 @@
-# 🚀 User Management System
+#  User Management System
 
 <p align="center">
-  <img src="./Preview Image.png" alt="Preview Image" width="700"/>
+  <img src="./image.png" alt="Preview Image" width="700"/>
 </p>
 
 A full-stack **User Management System** built using the **MERN Stack (MongoDB, Express, React, Node.js)** as part of an assignment for Bits and Volts Pvt. Ltd.
 
 ---
 
-## 🔗 Live Demo
+##  Live Demo
 
-👉 https://frontend-02-two.vercel.app/users
-
----
-
-## 📦 GitHub Repository
-
-👉 https://github.com/rockyhans/user_management_task
+ https://frontend-02-two.vercel.app/users
 
 ---
 
-# 📌 Project Overview
+##  GitHub Repository
+
+ https://github.com/rockyhans/user_management_task
+
+---
+
+#  Project Overview
 
 This project includes:
 
@@ -33,9 +33,9 @@ This project includes:
 
 ---
 
-# 🧱 Tech Stack
+#  Tech Stack
 
-## 🔹 Frontend
+##  Frontend
 
 * React (Vite)
 * React Router DOM
@@ -45,7 +45,7 @@ This project includes:
 * Tailwind CSS (v3)
 * Lucide Icons
 
-## 🔹 Backend
+##  Backend
 
 * Node.js
 * Express.js
@@ -54,16 +54,16 @@ This project includes:
 * Express Validator
 * JSON2CSV
 
-## 🔹 Deployment
+##  Deployment
 
 * Frontend: Vercel
 * Backend: Render / Local
 
 ---
 
-# 🏗️ Project Structure
+#  Project Structure
 
-## 📁 Frontend
+##  Frontend
 
 ```
 src/
@@ -95,7 +95,7 @@ backend/
 
 ---
 
-# 🔌 API Endpoints
+#  API Endpoints
 
 ## Base URL
 
@@ -103,7 +103,7 @@ backend/
 /api/users
 ```
 
-### 📌 Get Users (Pagination + Search)
+###  Get Users (Pagination + Search)
 
 ```
 GET /api/users?page=1&limit=10&search=keyword
@@ -111,7 +111,7 @@ GET /api/users?page=1&limit=10&search=keyword
 
 ---
 
-### 📌 Create User
+###  Create User
 
 ```
 POST /api/users
@@ -119,7 +119,7 @@ POST /api/users
 
 ---
 
-### 📌 Update User
+###  Update User
 
 ```
 PUT /api/users/:id
@@ -127,7 +127,7 @@ PUT /api/users/:id
 
 ---
 
-### 📌 Delete User
+###  Delete User
 
 ```
 DELETE /api/users/:id
@@ -135,7 +135,7 @@ DELETE /api/users/:id
 
 ---
 
-### 📌 Export CSV
+###  Export CSV
 
 ```
 GET /api/users/export
@@ -143,7 +143,7 @@ GET /api/users/export
 
 ---
 
-# 🎨 Frontend Routes
+#  Frontend Routes
 
 ```
 /users        → User List
@@ -154,8 +154,9 @@ GET /api/users/export
 
 ---
 
-# ✨ Features
+#  Features
 
+```
 ✔ CRUD Operations
 ✔ Pagination
 ✔ Search Functionality
@@ -165,9 +166,10 @@ GET /api/users/export
 ✔ Clean Component Structure
 ✔ Error Handling (Toast Notifications)
 
+```
 ---
 
-# 📱 Responsive Design
+#  Responsive Design
 
 * Built using Tailwind CSS
 * Mobile-first approach
@@ -175,9 +177,9 @@ GET /api/users/export
 
 ---
 
-# ⚙️ Setup & Run Locally
+#  Setup & Run Locally
 
-## 🔽 1. Clone Repository
+##  1. Clone Repository
 
 ```bash
 git clone https://github.com/rockyhans/user_management_task.git
@@ -186,14 +188,14 @@ cd user_management_task
 
 ---
 
-## ⚙️ 2. Backend Setup
+##  2. Backend Setup
 
 ```bash
 cd backend
 npm install
 ```
 
-### 📄 Create `.env` file
+###  Create `.env` file
 
 ```
 PORT=5000
@@ -201,15 +203,15 @@ MONGODB_URI=mongodb://localhost:27017/user-management
 NODE_ENV=development
 ```
 
-### ▶️ Run Backend
+###  Run Backend
 
 ```bash
-npm start
+npm run dev
 ```
 
 ---
 
-## 🎨 3. Frontend Setup
+##  3. Frontend Setup
 
 ```bash
 cd ../frontend
@@ -217,27 +219,12 @@ npm install
 npm run dev
 ```
 
-👉 Open: http://localhost:5173
+ Open: http://localhost:5173
 
 ---
 
-# 🚀 Deployment Notes
 
-## Vercel Fix (React Router 404 Issue)
-
-Create `vercel.json`:
-
-```json
-{
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
-}
-```
-
----
-
-# 🧠 Design Decisions
+#  Design Decisions
 
 | Feature    | Approach     | Reason                   |
 | ---------- | ------------ | ------------------------ |
@@ -249,16 +236,7 @@ Create `vercel.json`:
 
 ---
 
-# 🚫 Best Practices Followed
-
-✔ No inline styles
-✔ Proper componentization
-✔ Clean naming conventions
-✔ Structured folders
-
----
-
-# 🔮 Future Improvements
+#  Future Improvements
 
 * Authentication (JWT)
 * Role-based access
@@ -268,7 +246,7 @@ Create `vercel.json`:
 
 ---
 
-# 🙌 Conclusion
+#  Conclusion
 
 This project demonstrates:
 
@@ -279,7 +257,7 @@ This project demonstrates:
 
 ---
 
-## 👤 Author
+##  Author
 
 **Danish Rizwan**
 Full Stack Developer
